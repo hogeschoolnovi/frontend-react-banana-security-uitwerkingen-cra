@@ -9,7 +9,7 @@ function SignIn() {
 
   function onSubmit(data) {
     console.log(data);
-    login();
+    login(data.email);
   }
 
   return (
