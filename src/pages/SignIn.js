@@ -12,11 +12,11 @@ function SignIn() {
     e.preventDefault();
 
     console.log({
-      email: email,
+      emailadres: email,
       wachtwoord: password,
     });
 
-    login();
+    login(email);
   }
 
   return (
